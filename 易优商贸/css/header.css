@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+.top-header{
+	height: 30px;
+	line-height: 30px;
+	background-color: #f1f1f1;
+}
+
+.top-header .top{
+	height: 30px;
+	margin: 0 auto;
+}
+
+.top-header .top-left{
+	/*margin-left: 190px;*/
+	float: left;
+}
+
+
+.top-header .top-right{
+  float: right;
+  /*margin-right: 190px;*/
+}
+
+
+.top-header li{
+	display: inline-block;
+}
+
+
+.top-header .top-left li{
+	font-size: 10px;
+    margin-left: 26px;
+    letter-spacing: 1px;
+}
+
+.top-header .top-right li{
+	font-size: 10px;
+	margin-left: 20px;
+	letter-spacing: 1px;
+}
+
+.top-header .top-right .cards{
+	background: url(../images/car.png) no-repeat;
+    background-size: 20%;
+    background-position: 0 50%;
+    
+}
+.top-header .top-right .cards a{
+	display: inline-block;
+margin-left: 14px;
+	
+}
+
+.top-header .top-right .nav{
+      background: url(../images/image3.png) no-repeat;
+    background-size:14px;
+    background-position: 0 50%;
+}
+
+.top-header .top-right .nav a{
+	display: inline-block;
+margin-left: 20px;
+	
+}
+
+
+.top-header .top-left a{
+	color: #2a8c00;
+}
+
+
+
+
+.top-header .arrows-down{
+	background: url(../images/1.png) no-repeat;
+	background-size: 16%;
+	background-position: 85% 60%;
+}
+
+.top-header .arrows-down a{
+
+margin-right:26px;
+ 
+}
+.top-header a:hover{
+	color: #308e00;
+}
+
+/*.top-header .arrows-down span{
+	margin-right:26px;
+}
+
+*/
+
+.center-header{
+	width: 100%;
+	/*width: 969px;*/
+	margin: 0 auto 0 auto;
+	height: 160px;
+	/*margin: 0 auto;*/
+	position: relative;
+	border-bottom: 1px solid #308e00;                                                                                
+}
+
+
+.center-header .logo{
+	position: absolute;
+	top: 34px;
+	display: inline-block;
+	width: 160px;
+	height: 64px;
+	margin: 0 auto 20px auto;
+	background-color: #fff;
+	z-index: 1;
+	margin-left: 190px;
+}
+
+
+.center-header .logo a{
+	color: transparent;
+    width: 160px;
+    height: 64px;
+    display: inline-block;
+    background-image: url(../images/image5.png);
+}
+
+.center-header .search{
+	position: absolute;
+	width: 482px;
+	height: 38px;
+	left: 520px;
+	top: 34px;
+}
+
+
+.center-header .search input{
+	width: 400px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #328e00;
+	/*vertical-align: top;*/
+	text-indent: 10px;
+	letter-spacing: 1px;
+	top: 34px;
+}
+
+
+.center-header .search button{
+	width: 80px;
+	height: 40px;
+	line-height:40px;
+	display: inline-block;
+	top: 34px;
+	/*padding-bottom: 2px;*/
+	margin-bottom: 2px;
+	background-color: #308e00;
+	color: #fff;
+	/*border: 1px solid red;*/
+
+}
+
+
+.center-header .car{
+	width: 148px;
+	height: 38px;
+	border: 1px solid #dadada;
+	background-color: #fff;
+	position: absolute;
+	right: 190px;
+	top: 34px;
+	line-height: 38px;
+	text-align: center;
+}
+
+
+.center-header .car .icon1{
+    display: inline-block;
+	width: 18px;
+	height: 14px;
+	background: url(../images/car.png) no-repeat;
+	/*background-size: 0%;*/
+	vertical-align: middle;
+}
+
+
+.center-header .car .icon2{
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	border: 1px solid #308e00;
+	background-color: #308e00;
+	border-radius: 3px;
+	position: absolute;
+	left: 112px;
+	top: 0;
+}
+
+
+.center-header .car strong{
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	color: #fff;
+	position: absolute;
+	border-radius: 3px;
+	top:-14px;
+	left: 114px;
+}
+
+
+.center-header .car .icon3{
+	width: 8px;
+	height: 10px;
+	display: inline-block;
+	background: url(../images/2.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top:18px;
+	right: 20px;
+}
+
+.center-header .hot{
+position: absolute;
+margin-left: 520px;
+margin-top: 86px;
+}
+
+.center-header .hot li{
+	float: left;
+	border-right: dashed 1px;
+	margin-right: 10px;
+}
+
+.center-header .hot a{
+	margin-right: 10px;
+}
+
+
+.center-header .hot span{
+	color: #308e00;
+}
+
+
+.center-header .bottom{
+	position: absolute;
+	margin-left: 190px;
+	margin-top: 130px;
+	font-weight: bold;
+}
+
+
+.center-header .bottom li{
+	float: left;
+	border-right: dashed 1px;
+	margin-right: 30px;
+}
+
+.center-header .bottom a{
+	margin-right: 30px;
+}
+
+
+.center-header .bottom .menu a{
+	margin-right: 108px;
+}
+
+
+.center-header .bottom .menu{
+	background: url(../images/image3.png)no-repeat;
+	background-size: 18px;
+	background-position: 0 50%;
+	background-color: #308e00;
+	height: 32px;
+	line-height: 32px;
+	/*color: #fff;*/
+	
+}
+
+.center-header .bottom .menu a{
+	display: inline-block;
+	margin-left: 20px;
+	color: #fff;
+	
+
+
+
+}
+
+.center-header a:hover{
+	color: #308e00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
